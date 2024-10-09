@@ -1,0 +1,32 @@
+#scikit-learn
+#pandas
+#requests
+python-docx
+notebook
+transformers
+accelerate
+bitsandbytes
+bitsandbytes-cuda116
+#openai
+#tqdm
+elasticsearch
+#flask
+#psycopg2-binary
+
+# Main application dependencies
+openai
+scikit-learn
+pandas
+flask
+psycopg2-binary
+python-dotenv
+gunicorn
+
+# Development dependencies
+tqdm
+#notebook==7.1.2
+ipywidgets
+jupyter
+requests
+pgcli
+questionary
