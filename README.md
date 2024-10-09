@@ -343,6 +343,19 @@ We use Grafana for monitoring the application.
 
 ### Dashboards
 
+
+
+
+
+![Alt Text](https://github.com/Dannycesp/datascience_rag_bot/blob/main/images/dashboards_grafana.png)
+
+
+
+
+
+
+
+
 The monitoring dashboard contains several panels:
 
 - **Last 5 Conversations (Table):** Displays recent conversations with details.
