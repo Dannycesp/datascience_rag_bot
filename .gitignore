@@ -1,6 +1,14 @@
 .env
 .envrc
 
+
+# Ignore backup files
+backup_files/
+
+# Ignore activation scripts
+bin/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
