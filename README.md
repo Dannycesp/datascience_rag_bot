@@ -285,7 +285,7 @@ Since we use an in-memory database (`minsearch`) as our knowledge base, we run t
 
 ## Experiments
 
-For experiments, we use Jupyter notebooks located in the `notebooks` folder.
+For experiments, we use Jupyter notebooks located in the [`notebooks`](https://github.com/Dannycesp/datascience_rag_bot/tree/main/notebooks) folder.
 
 The following notebooks are included:
 
