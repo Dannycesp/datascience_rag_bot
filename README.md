@@ -38,7 +38,9 @@ The dataset serves as the foundation for the Data Science Assistant's ability to
 
 ## Preparation
 
-Since we use OpenAI, you need to provide your API key.
+Since we use OpenAI, you need to provide your API key:
+ - Copy .env_template into .env and insert your key there.
+ - For OpenAI, it's recommended to create a new project and use a separate key.
 
 ### Setting Up Environment Variables
 
