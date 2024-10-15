@@ -300,7 +300,7 @@ Among the several open-source models tested, the chosen one was **llama3.1:8b** 
 
 In the role of judges or evaluators, both models performed similarly, providing comparable results:
 
-**Retrieval Evaluation**
+### Retrieval Evaluation
 
   **LLM-as-a-Judge metric** to evaluate the quality of our RAG flow.
   
@@ -315,6 +315,8 @@ In the role of judges or evaluators, both models performed similarly, providing 
     - NON_RELEVANT: 0.01
 
 From the results, the llama model could very well be used for this use case, especially for local deployment. The decision to use OpenAI's gpt-4o-mini was for convenience, as it is faster than running a model locally, more reliable in formatting outputs, and cost-effective for the scope of this project.
+
+### RAG Flow Evaluation
 
 **Basic Approach Metrics (using Minsearch without any boosting):**
 
