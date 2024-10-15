@@ -1,18 +1,3 @@
-#scikit-learn
-#pandas
-#requests
-python-docx
-notebook
-transformers
-accelerate
-bitsandbytes
-bitsandbytes-cuda116
-#openai
-#tqdm
-elasticsearch
-#flask
-#psycopg2-binary
-
 # Main application dependencies
 openai
 scikit-learn
@@ -21,12 +6,20 @@ flask
 psycopg2-binary
 python-dotenv
 gunicorn
+requests
+#elasticsearch
 
 # Development dependencies
 tqdm
-#notebook==7.1.2
+notebook
 ipywidgets
 jupyter
-requests
 pgcli
 questionary
+
+#comment the lines below if you are not running the llm locally
+# Model-related dependencies (required for running models locally)
+transformers  # For NLP model usage
+accelerate  # For optimized model training and inference
+bitsandbytes  # Memory-efficient training
+bitsandbytes-cuda116  # CUDA support for bitsandbytes
